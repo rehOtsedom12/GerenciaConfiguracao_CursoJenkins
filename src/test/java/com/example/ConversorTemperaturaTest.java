@@ -16,10 +16,7 @@ class ConversorTemperaturaTest {
         conversor = new ConversorTemperatura();
     }
 
-    // -------------------------------------------------------
     // Testes: celsiusParaFahrenheit
-    // -------------------------------------------------------
-
     @Test
     @DisplayName("0 graus Celsius deve ser igual a 32 Fahrenheit (ponto de congelamento)")
     void testCongelamento_CelsiusParaFahrenheit() {
@@ -52,10 +49,7 @@ class ConversorTemperaturaTest {
                 "-40°C deveria converter para -40°F (ponto de equivalencia)");
     }
 
-    // -------------------------------------------------------
     // Testes: fahrenheitParaCelsius
-    // -------------------------------------------------------
-
     @Test
     @DisplayName("32 Fahrenheit deve ser igual a 0 graus Celsius (ponto de congelamento)")
     void testCongelamento_FahrenheitParaCelsius() {
