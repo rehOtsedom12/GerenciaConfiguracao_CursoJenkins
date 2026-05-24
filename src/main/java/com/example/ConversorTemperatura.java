@@ -17,4 +17,4 @@ public class ConversorTemperatura {
     public double fahrenheitParaCelsius(double fahrenheit) {
         return (fahrenheit - 32.0) * 5.0 / 9.0;
     }
-}
+
